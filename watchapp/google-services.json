@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "965208127232",
+    "firebase_url": "https://dietplanner-b6460-default-rtdb.firebaseio.com",
+    "project_id": "dietplanner-b6460",
+    "storage_bucket": "dietplanner-b6460.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965208127232:android:6129529dc6c2c15afb25e5",
+        "android_client_info": {
+          "package_name": "com.example.dietplanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965208127232-asbcbrd25q77kfvlmmi6l0cb8ngc1p6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ3ClmPkXlB6s8xc1OwaVR3ruJQ5hYWrg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965208127232-asbcbrd25q77kfvlmmi6l0cb8ngc1p6v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
