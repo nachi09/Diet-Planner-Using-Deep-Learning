@@ -1,0 +1,62 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    tools:context=".ui.onboarding.OnboardingActivity">
+
+    <androidx.viewpager.widget.ViewPager
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/onboarding_nav_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        app:layout_constraintBottom_toTopOf="@id/onboarding_nav_bar"
+        android:layout_marginHorizontal="2dp"
+        android:background="@color/peach"/>
+
+    <RelativeLayout
+      android:paddingHorizontal="20dp"
+        android:id="@+id/onboarding_nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center_vertical"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/onboarding_next_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@null"
+            android:backgroundTint="@color/white"
+            android:padding="5dp"
+            android:stateListAnimator="@null"
+            android:text="Next"
+            android:textColor="@color/peach"
+            android:textSize="20sp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/onboarding_back_btn"
+            android:layout_alignParentStart="true"
+
+            android:textSize="20sp"
+            android:backgroundTint="@color/white"
+            android:background="@null"
+            android:textColor="@color/peach"
+            android:padding="5dp"
+            android:stateListAnimator="@null"
+            android:text="Back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
